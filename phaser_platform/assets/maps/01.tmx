@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="70" height="40" tilewidth="30" tileheight="30" nextobjectid="2">
+ <tileset firstgid="1" name="tiles" tilewidth="30" tileheight="30">
+  <image source="../tiles.png" width="240" height="30"/>
+ </tileset>
+ <layer name="blockLayer" width="70" height="40">
+  <data encoding="base64" compression="zlib">
+   eJzt0DEOwjAQRUFK3//ENBSAHlRep8g8abtI35n10HfrdfqMS8el49Jx6bh0XDouHZeOS8el49Jx6bh0XDouHZeOS8el49Jx6bh0XDouHZeOS8elW3Hi8qs7u9S/77jpN/77Zmrzzi5THqdcpra57Nm60uVE0x47nK7Y5nJmkwuX93sCWUUNsQ==
+  </data>
+ </layer>
+ <layer name="backgroundLayer" width="70" height="40">
+  <data encoding="base64" compression="zlib">
+   eJztw7EJAAAIA7CO/n+xN3QSIYEkAAAAAAAAAAAAcGvKAJ8t/w8AYQ==
+  </data>
+ </layer>
+ <layer name="spikeLayer" width="70" height="40">
+  <data encoding="base64" compression="zlib">
+   eJzt1bEJAEAMAzFX2X/kb1OHVB8JbgODEwAAAAAAAAC2VQuAmyr+gP/ZOcDMA2veAEM=
+  </data>
+ </layer>
+ <objectgroup name="objectLayer">
+  <object id="1" gid="1" x="690" y="991" width="30" height="30"/>
+ </objectgroup>
+</map>
