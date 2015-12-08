@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="150" height="30" tilewidth="30" tileheight="30" nextobjectid="5">
+ <tileset firstgid="1" name="tileset" tilewidth="30" tileheight="30">
+  <image source="../tileset.png" width="540" height="30"/>
+ </tileset>
+ <layer name="backgroundLayer" width="150" height="30">
+  <data encoding="base64" compression="zlib">
+   eJzt2KENAAAIA8F69t8XiSbBcZd0hJpPAAAAAAAAAAAA+KyOBgAAAHDVGTQIGD4DAABsNedDAoo=
+  </data>
+ </layer>
+ <layer name="blockLayer" width="150" height="30">
+  <data encoding="base64" compression="zlib">
+   eJztl8sOwyAQAznn/z+4yilRFTVlWdY2eCSOTW0z6uNorR0+PhOOuWDZRvG+VHIiYNnGXq0Fyzb2ai1YtrFXa8Gyjb1ai1/bVP5/sldrgfLqLYfCfankRGCv4qjkRJB9j/bKnNirOCo5EdirOCo5EdirOCo5EYz+3o4+r+d1rKjkRGCv4qjk/KZia3sVRyXnE/aKF5WcT1R7lf08e4Un83Mj+p7Zz/snf1XXbFRynuzolSpKndTvRT1/D8yder77WDvcUc8fAdHpbUtmryLvy5S/CsQd2qs5Z0a36pOVP7NfBfaqvgN65wrs1X5eMW2B6DsKekeVnXfrOwp6R5Wdd+s7CnpHlZ136ztKdp4PkAE6DQ==
+  </data>
+ </layer>
+ <layer name="spikeLayer" width="150" height="30">
+  <data encoding="base64" compression="zlib">
+   eJzt2rsKgDAQRUErX///wbYiik1uVuIMLFhYxOWkc5qA3raC2bt8GX+zVh+AIemKBF2RoCsSdEUry+lZV7SiKxJ0RYKuSNAVCboiQVck6IoEXdUZed+6qjPyvnVFwvL+Co386d7qqp+Krq7/BPeiKxJ0RYKu4Nvmm4EvuWu09ZBl5wAAzw7RJAMW
+  </data>
+ </layer>
+ <objectgroup name="objectLayer">
+  <object id="1" gid="1" x="1895" y="704" width="30" height="30"/>
+  <object id="2" gid="1" x="1788" y="494" width="30" height="30"/>
+  <object id="3" gid="1" x="3564" y="733" width="30" height="30"/>
+  <object id="4" gid="2" x="2430" y="571" width="30" height="30"/>
+ </objectgroup>
+ <layer name="invisibleBlockLayer" width="150" height="30">
+  <data encoding="base64" compression="zlib">
+   eJzt2jENAAAIBLG3gH+z7OyEhLQKTsAlAAAAAAAA8FtdBwAAAAAAAAAADH4GAAC2NNalACM=
+  </data>
+ </layer>
+ <layer name="doorLayer" width="150" height="30">
+  <data encoding="base64" compression="zlib">
+   eJzt0qENAAAIBLGfgf2HxaBR4NrkNrgEAAAAAAAAAAAAAAAA2NQEl3wFAAAAfGg7CwBJ
+  </data>
+ </layer>
+</map>

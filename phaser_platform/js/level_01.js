@@ -1,41 +1,13 @@
-(function() {
-	var mainState = {
-		preload: function() {
-			game.load.image('backgroundBlue', 'assets/bg_blue.png');
-			game.load.image('backgroundOrange', 'assets/bg_orange.png');
-			game.load.image('backgroundPurple', 'assets/bg_purple.png');
-			game.load.image('backgroundGreen', 'assets/bg_green.png');
-			game.load.image('player', 'assets/player.png');
-			game.load.image('ground', 'assets/ground.png');
-			game.load.image('tileset', 'assets/tileset.png');
-			game.load.image('spikes', 'assets/spikes.png');
-			game.load.image('platform', 'assets/platform.png');
-			game.load.tilemap('map', 'assets/level3.json', null, Phaser.Tilemap.TILED_JSON);
-		},
+
+	var level01State = {
 		create: function() {
-			// Start the physics system
-			game.physics.startSystem(Phaser.Physics.ARCADE);
-			
-			switch (Math.floor( Math.random() * 4)) {
-				case 0:
-					this.background = game.add.sprite(0, 0, 'backgroundBlue');
-					break;
-				case 1:
-					this.background = game.add.sprite(0, 0, 'backgroundOrange');
-					break;
-				case 2:
-					this.background = game.add.sprite(0, 0, 'backgroundPurple');
-					break;
-				case 3:
-					this.background = game.add.sprite(0, 0, 'backgroundGreen');
-					break;
-			}
 			
 			// Add background
-			
+			this.background = game.add.sprite(0, 0, 'backgroundOrange');
 			this.background.fixedToCamera = true;
 
-			this.map = game.add.tilemap('map');
+
+			this.map = game.add.tilemap('level01');
 		    // Add the tileset to the map
 			this.map.addTilesetImage('tileset');
 			// Create the layer, by specifying the name of the Tiled layer
@@ -133,7 +105,3 @@
 		}
 	};
 
-	var game = new Phaser.Game(720, 480, Phaser.AUTO, 'gameDiv');
-	game.state.add('main', mainState);
-	game.state.start('main');
-})();

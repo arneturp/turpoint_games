@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="150" height="30" tilewidth="30" tileheight="30" nextobjectid="7">
+ <tileset firstgid="1" name="tileset" tilewidth="30" tileheight="30">
+  <image source="../tileset.png" width="540" height="30"/>
+ </tileset>
+ <layer name="backgroundLayer" width="150" height="30">
+  <data encoding="base64" compression="zlib">
+   eJzt1rENgEAMBEFyEvqvliJeax6YkZw72OCOA3ij6+kH+CRdUdAVBV1R0BUFXc05g9uVrijoioKuKOiKgq7m2O2wRlcUdEVBVxR0NcduhzW6oqArCrqioKs5xW7fddPrioKuAAAA+IsbN1cFWg==
+  </data>
+ </layer>
+ <layer name="blockLayer" width="150" height="30">
+  <data encoding="base64" compression="zlib">
+   eJztlkGSwjAMBHPO/x/MgeIASbAleSzVaLrKl6yxpVHD5jyO49TSAiwWnvrancXMOR3mwEIVrzy1Ms6BhcicIi5G7pNX9cn0Klor4xxYGM185m+js+TVmJ397MhQXtWA3SvL3hXvV5a+Oni1o6cOXkVqlVe+8zO9urtzVIe88rOjJ3k1fz4LXb2y7kH41cWrVX0hvtveu3+f3+2b2YP4zZJX8XOrefXvs9Y75NUVeWXbc3eHvLqyqi/k/wt0HajlqZWFlb3JK3n1QV6Na7Q8l1dvIr2hv8/sMGcS7U1e+WHOJDpzeeWHORPrzFe/u+zEU9NTnb/P9X71jWfm8kpejZBX8grBKkdYvMpeLHTKMNuZipmg6JRhtjMVM0HRKcNsZypmgqJThtnOVMwERacMs53ptl5CDTl3
+  </data>
+ </layer>
+ <layer name="spikeLayer" width="150" height="30">
+  <data encoding="base64" compression="zlib">
+   eJzt2isOgDAQQEFUgftfGIMiJWC2n+1MsqaiqXhZ1W0DZnF+DABksvd+ACnpigi6AmZiZxFBV20cvR/QmK7aWK0riGJnxVh9R+kqxkhdlXta0hWMbaQdRR5Zu3r7J+X/FMwl646iL10BI7OjiJC9q/KY2lnt/M9dtTsAAAAgmwt9sQFu
+  </data>
+ </layer>
+ <objectgroup name="objectLayer">
+  <object id="2" gid="1" x="1202" y="524" width="30" height="30"/>
+  <object id="3" gid="1" x="933" y="374" width="30" height="30"/>
+  <object id="4" gid="1" x="1283" y="225" width="30" height="30"/>
+  <object id="5" gid="1" x="1076" y="673" width="30" height="30"/>
+  <object id="6" gid="2" x="2611" y="361" width="30" height="30"/>
+ </objectgroup>
+ <layer name="invisibleBlockLayer" width="150" height="30">
+  <data encoding="base64" compression="zlib">
+   eJzt2wENAAAIw7BbwL9ZZJCHVsEMLAEazXUAAAAAAAAAAAAAAAAAFPHjAAAA8MUCsbMAIw==
+  </data>
+ </layer>
+ <layer name="doorLayer" width="150" height="30">
+  <data encoding="base64" compression="zlib">
+   eJzt0qENAAAIBLGfgf2HxaDQ4NrkNrgEAAAAAAAAAPhWE1zyFQAAAAAAAAAAsDXTdgBJ
+  </data>
+ </layer>
+</map>

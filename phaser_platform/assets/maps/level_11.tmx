@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="119" height="30" tilewidth="30" tileheight="30" nextobjectid="2">
+ <tileset firstgid="1" name="tileset" tilewidth="30" tileheight="30">
+  <image source="../tileset.png" width="570" height="30"/>
+ </tileset>
+ <layer name="backgroundLayer" width="119" height="30">
+  <data encoding="base64" compression="zlib">
+   eJzt0VEJACAUwMAXwf5pbeCfCuMuwWAzcLZ+B3CNt13ednnb5W2Xt13ednnb5W2Xt13ednnb5W2Xt13ednnb5W2Xt13ednnb5W2Xt13ednnb5W2Xt13ednkL72wsNgHB
+  </data>
+ </layer>
+ <layer name="blockLayer" width="119" height="30">
+  <data encoding="base64" compression="zlib">
+   eJzt1cEOhCAMRVHW/P8Hu3ChMVGpFGif9ybsTC05ZqaWUipH9oxo9fsjtcID2zlhq9tK2+s8jx2wPcJWtyy/ydjaw1Y3bHXDVjdsdcNWNzVbOsL2W193WXEHbG3d7fK2I7bP+1mfn/mf2zu39dsYcTxStu0NW9vzPfeJ9g1ksbXMx3YPW2wz2Xq+A1tsz3OilNnWawdssW2dEyVsscW2fU6UsMUW2/Y5UcIW26y2M+/zJ1uvswECZC+z
+  </data>
+ </layer>
+ <layer name="ladderLayer" width="119" height="30">
+  <data encoding="base64" compression="zlib">
+   eJzt0QEJADAMwLB5uH+vV3EOXaKg0Bk2OL8DeMbbLm+7vO3ytsvbLm+7vO3ytsvbLm+7vO3ytsvbLm+7vO3yFgAAAAAA9rlvpwFE
+  </data>
+ </layer>
+ <layer name="spikeLayer" width="119" height="30">
+  <data encoding="base64" compression="zlib">
+   eJztw7ENAAAIA6BO/n+yL3RwExISAAAAAAAAAAAAAAAA4IMpAvcW8JAANw==
+  </data>
+ </layer>
+ <objectgroup name="objectLayer">
+  <object id="1" gid="2" x="479" y="300" width="30" height="30"/>
+ </objectgroup>
+ <layer name="invisibleBlockLayer" width="119" height="30">
+  <data encoding="base64" compression="zlib">
+   eJzt2kENAAAIxLCzgH+zBAN8CUmrYAKWwK6uAwAAAAAAAAAAnvJdAAAAAACjAR7jACM=
+  </data>
+ </layer>
+ <layer name="doorLayer" width="119" height="30">
+  <data encoding="base64" compression="zlib">
+   eJzt0TENAAAIBLHXgH+xLAhgYSFtcgouAQAAAAAA4FJN/OMtAAAAAAAAsNF0gABJ
+  </data>
+ </layer>
+</map>

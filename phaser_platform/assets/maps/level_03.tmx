@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="150" height="30" tilewidth="30" tileheight="30" nextobjectid="1">
+ <tileset firstgid="1" name="tileset" tilewidth="30" tileheight="30">
+  <image source="../tileset.png" width="540" height="30"/>
+ </tileset>
+ <layer name="backgroundLayer" width="150" height="30">
+  <data encoding="base64" compression="zlib">
+   eJztwQENAAAAwqD3T20PBxQAAAAAAAAAAAAAAAAAAAAAAA8GRlAAAQ==
+  </data>
+ </layer>
+ <layer name="blockLayer" width="150" height="30">
+  <data encoding="base64" compression="zlib">
+   eJzt0sERgzAMRUHO9F9wOsgI8EcIdmd0I1gxb9+2bTcmMCmdZ3M/XZGgKxJ0RYKuSNAVCboiQVck6IoEXZGgKxJ0RZKuSNDVe6y868q7fNtv0NUck+5HV3NMuh9drXP2v1SfvXI/ifu96zs/vav02brS1Ru7+ndudacju+uqvl/lt0fef2Svq8/pan1XZ7/7W7uaMFWdu+iqvxNd6eoJU9W9p65mTVX3nrqaNVXde+pq1lR176mrWVPVvaeuZk3VirN+icE30w==
+  </data>
+ </layer>
+ <layer name="spikeLayer" width="150" height="30">
+  <data encoding="base64" compression="zlib">
+   eJzt1CEOADAIA0AU/3/yPAmICQS5S6pa3QgAAAAAAAAAAAAAAADoZcnU/ezqFoAdPhkAAOCmB/deAJc=
+  </data>
+ </layer>
+ <objectgroup name="objectLayer"/>
+ <layer name="invisibleBlockLayer" width="150" height="30">
+  <data encoding="base64" compression="zlib">
+   eJztwQENAAAAwqD3T20PBxQAAAAAAAAAAAAAAAAAAAAAAA8GRlAAAQ==
+  </data>
+ </layer>
+ <layer name="doorLayer" width="150" height="30">
+  <data encoding="base64" compression="zlib">
+   eJzt0jENAAAIBLHXgH+xLBggMLbJObgEAAAAAAAAAHZqgk++AgAAAAAAAAAAuGsqJQBJ
+  </data>
+ </layer>
+</map>
